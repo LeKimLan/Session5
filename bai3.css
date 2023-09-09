@@ -1,0 +1,53 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+body {
+    padding: 20px;
+    display: flex;
+    justify-content: space-around;
+    line-height: 1.5;
+}
+
+h1 {
+    margin-bottom: 10px;
+}
+
+hr {
+    border: 3px solid rgb(134,151,203);
+    margin-bottom: 15px;
+    width: 45px;
+}
+
+h3 {
+    margin: 15px 0;
+}
+
+.picture {
+    width: 30%;
+}
+
+img {
+    width: 100%;
+}
+
+.about {
+    width: 65%;
+}
+
+#list {
+    display: flex;
+}
+
+ul {
+    list-style: none;
+    width: 40%;
+}
+
+i {
+    width: 30px;
+    text-align: right;
+    color: rgb(134,151,203);
+}

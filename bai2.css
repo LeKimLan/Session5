@@ -1,0 +1,64 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+body {
+    padding: 20px 40px;
+}
+
+h2 {
+    margin-bottom: 10px;
+}
+
+h3 {
+    margin: 20px 0;
+}
+
+.main_body {
+    display: flex;
+    justify-content: space-between;
+}
+
+.info {
+    width: 25%;
+}
+
+i {
+    width: 30px;
+}
+
+p {
+    margin: 30px 10px;
+    color: grey;
+}
+
+.contact_form {
+    width: 65%;
+}
+
+input,textarea {
+    margin-bottom: 15px;
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    border: 2px solid lightgrey;
+}
+
+input {
+    height: 25px;
+}
+
+button {
+    background-color: rgb(10,185,177);
+    color: white;
+    width: 130px;
+    height: 40px;
+    border: none;
+}
+
+hr {
+    border: 3px solid orange;
+    width: 60px;
+}
